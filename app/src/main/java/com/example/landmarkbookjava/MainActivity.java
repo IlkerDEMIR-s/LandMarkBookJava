@@ -50,6 +50,15 @@ public class MainActivity extends AppCompatActivity {
         landMarkArrayList.add(colosseum);
         landMarkArrayList.add(londonBridge);
 
+        landMarkArrayList.add(pisa);
+        landMarkArrayList.add(eiffel);
+        landMarkArrayList.add(colosseum);
+        landMarkArrayList.add(londonBridge);
+        landMarkArrayList.add(pisa);
+        landMarkArrayList.add(eiffel);
+        landMarkArrayList.add(colosseum);
+        landMarkArrayList.add(londonBridge);
+
         //Not efficient
         /*
         Bitmap is a class that can hold image data like jpg, png, etc.

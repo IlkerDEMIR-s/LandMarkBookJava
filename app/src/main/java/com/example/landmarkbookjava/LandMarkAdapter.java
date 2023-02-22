@@ -33,10 +33,10 @@ public class LandMarkAdapter extends RecyclerView.Adapter<LandMarkAdapter.LandMa
 
     @Override
     public void onBindViewHolder(@NonNull LandMarkAdapter.LandMarkHolder holder, @SuppressLint("RecyclerView") int position) {
-        holder.binding.titleRecyclerText.setText(landMarkArrayList.get(position).name);
-        holder.binding.contentRecyclerText.setText(landMarkArrayList.get(position).content);
+        holder.binding.recycleTitleTextView.setText(landMarkArrayList.get(position).name);
+        holder.binding.recycleContentTextView.setText(landMarkArrayList.get(position).content);
 
-        holder.binding.imageRecyclerView.setImageResource(landMarkArrayList.get(position).image);
+        holder.binding.recycleImageView.setImageResource(landMarkArrayList.get(position).image);
 
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
